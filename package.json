@@ -1,0 +1,16 @@
+{
+  "name": "dispatch-log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jacob M. Roufa <jacob.roufa@gmail.com> (http://jacobroufa.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "get": "1.4.0",
+    "pdf2json": "1.1.7"
+  }
+}
