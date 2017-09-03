@@ -8,6 +8,10 @@ This is a first run through at parsing the data; there are still some kinks to b
 
 * clone repository and `cd dispatch-log`
 * run `npm install`
-* run `node index.js`
+* run `npm start`
 
-You might want to run the application with the `--inspect` and `--debug-brk` flags, as currently no data is being saved.
+You might want to run `npm run dev` instead, in order to inspect the parsed dataset, as currently nothing is being saved to a database.
+
+## License
+
+Copyright (c) 2017 Jacob M. Roufa jacob.roufa@gmail.com Licensed under the MIT license.

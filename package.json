@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "node --inspect --debug-brk index.js"
   },
   "keywords": [],
   "author": "Jacob M. Roufa <jacob.roufa@gmail.com> (http://jacobroufa.com/)",
@@ -12,5 +13,9 @@
   "dependencies": {
     "get": "1.4.0",
     "pdf2json": "1.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jacobroufa/dispatch-log.git"
   }
 }

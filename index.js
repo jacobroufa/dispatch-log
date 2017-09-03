@@ -9,6 +9,7 @@ pdfGet.asBuffer((err, data) => processor.load(data));
 
 processor.completed.then((dispatchEvents) => {
 	console.log(processor.updated, dispatchEvents)
+	debugger;
 	// TODO: after paring down the data to only what doesn't exist in the db yet
 	// (pseudocode) db.get(newestRow.date) && dispatchEvents.filter(({ date }) => date > newestRow.date)
 	// TODO: do a db write of the filtered dataset
