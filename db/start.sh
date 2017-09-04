@@ -2,7 +2,7 @@
 
 DIR=$(dirname $0)
 
-source $DIR/creds.sh
+. $DIR/creds.sh
 
 APP_ROOT=$(dirname $DIR)
 
