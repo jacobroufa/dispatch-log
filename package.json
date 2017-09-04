@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "./db/start.sh",
     "dev": "node --inspect --debug-brk index.js"
   },
   "keywords": [],
@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "get": "1.4.0",
+    "mysql": "2.14.1",
     "pdf2json": "1.1.7"
   },
   "repository": {
