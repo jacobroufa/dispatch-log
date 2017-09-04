@@ -6,7 +6,14 @@ Built as a response to the [RPD announcement](https://rockfordil.gov/wp-content/
 
 The parser seems to be working (though it'll need some more runs through to work out any potential bugs). Currently there is database support, so I intend to get this installed on a server, running on a cron job every hour, and build a simple front end through which to browse, filter, and search the data.
 
-## Local Installation
+## Prerequisites
+
+* a recent version of Node.js (developed using v7.1.0)
+* a recent version of MySQL (developed using 5.7.19)
+
+This was developed on an OSX machine, so YMMV. I intend to host this on a Debian server. Basically any Unix env should be no problem.
+
+## Installation
 
 * clone repository and `cd dispatch-log`
 * run `npm install`
