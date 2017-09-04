@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "./db/install.sh",
     "start": "./db/start.sh",
     "dev": "node --inspect --debug-brk index.js"
   },

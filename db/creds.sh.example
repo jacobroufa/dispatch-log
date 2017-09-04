@@ -3,7 +3,3 @@
 export DISPATCH_DB="dispatch"
 export DISPATCH_DB_PASS="password"
 export DISPATCH_DB_USER="root"
-
-APP_ROOT=$(dirname $(dirname $0))
-
-node $APP_ROOT/index.js

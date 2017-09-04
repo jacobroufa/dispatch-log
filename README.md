@@ -16,8 +16,8 @@ This was developed on an OSX machine, so YMMV. I intend to host this on a Debian
 ## Installation
 
 * clone repository and `cd dispatch-log`
+* `cp db/creds.sh.example db/creds.sh` and modify the `DISPATCH_DB*` variables to suit your environment
 * run `npm install`
-* `cp db/start.sh.example db/start.sh` and modify the `DISPATCH_DB*` variables to suit your environment
 * run `npm start` or set up a cron job to run the `start.sh` script
 
 ## License
